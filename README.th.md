@@ -1,9 +1,11 @@
 ---
 
-# 📦 QA Incident Case Studies
+# 📦 QA Incident Case Studies (Personal Learning Repo)
 
-Repository นี้รวบรวม **QA incident case studies แบบจำลองจากสถานการณ์จริง**
-โดยเน้นการทำงานแบบ end-to-end ตั้งแต่พบปัญหา → วิเคราะห์ → ป้องกันไม่ให้เกิดซ้ำ
+Repository นี้ถูกสร้างขึ้นเพื่อ  
+
+**ฝึกคิด วิเคราะห์ และจดบันทึกการจัดการ incident ในมุมมองของ QA**
+<br/>โดยเน้นการทำงานแบบ end-to-end ตั้งแต่พบปัญหา → วิเคราะห์ → ป้องกันไม่ให้เกิดซ้ำ
 
 > 🎯 โฟกัสหลักคือ **การคิดและการตัดสินใจของ QA ในสถานการณ์จริง**
 ไม่ใช่ repo สำหรับสอนพื้นฐานหรือ tutorial
@@ -19,7 +21,7 @@ Repo นี้ถูกสร้างขึ้นเพื่อแสดงใ
 - การเขียน bug report ที่ชัดเจนและ actionable
 - Root Cause Analysis (RCA) แบบ system thinking
 - การมองปัญหาในมุม regression และ prevention
-- QA mindset ในสภาพแวดล้อม production
+- QA mindset ใน environment production
 
 Repo นี้ถูกแยกออกจาก learning repo โดยตั้งใจ  
 👉 **ทำโจทย์จริง ไม่ปนกับการเรียนพื้นฐาน**
@@ -92,7 +94,7 @@ Incident อาจเป็น scenario จำลอง
 
 ## 🔗 Repository ที่เกี่ยวข้อง
 
-- **qa-learning-journey-repository**  
+-  [QA Learning Repository](https://github.com/JSONBREAK/qa-learning-practice-repository)
   ใช้สำหรับเรียน QA ตั้งแต่พื้นฐาน tools, concepts และ notes
 
 Repo นี้ใช้สำหรับ:
