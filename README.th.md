@@ -1,9 +1,5 @@
 ---
 
----
-
----
-
 # 📦 QA Incident Case Studies
 
 Repository นี้รวบรวม **QA incident case studies แบบจำลองจากสถานการณ์จริง**
