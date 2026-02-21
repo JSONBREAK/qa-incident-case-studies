@@ -1,10 +1,12 @@
-# 🚀 SauceDemo QA Testing Project (Professional Simulation)
+# 🚀 SauceDemo QA Testing Project
 
 ## 📋 Project Overview
 
-This project simulates the role of a QA Engineer testing an E-commerce web application, **SauceDemo**, by following a structured and professional Software Testing Life Cycle (STLC).
+This repository is a practical QA project based on knowledge learned from previous QA learning repositories.
 
-The objective is to replicate a real-world QA workflow — from requirement analysis to final test reporting — using a live demo application as the system under test.
+The goal of this project is to apply testing concepts (STLC, test case design, defect reporting) to a real demo web application, **SauceDemo**, in a structured way.
+
+Instead of focusing only on theory, this project demonstrates how testing knowledge can be applied to an actual system.
 
 **Target Website:** https://www.saucedemo.com/  
 **Application Owner:** Sauce Labs  
@@ -13,136 +15,106 @@ The objective is to replicate a real-world QA workflow — from requirement anal
 
 ## 🎯 Project Objectives
 
-- Apply software testing theory to a real-world web application  
-- Perform reverse engineering to derive User Stories and Acceptance Criteria from observed system behavior  
-- Design comprehensive Test Cases covering:
+- Apply software testing fundamentals in a practical scenario  
+- Analyze system behavior and derive basic requirements  
+- Design test cases covering:
   - Positive scenarios  
   - Negative scenarios  
   - Edge cases  
-- Practice structured and reproducible Defect Reporting  
-- Produce professional QA documentation aligned with industry standards  
+- Execute manual test cases  
+- Document defects clearly and consistently  
 
 ---
 
-## 🛠 Testing Process (STLC)
+## 🛠 Testing Process
 
-The project follows a structured Software Testing Life Cycle (STLC) divided into the following phases:
+This project follows a simplified Software Testing Life Cycle (STLC):
 
-### 1️⃣ Requirement Analysis & Documentation
+### 1️⃣ Requirement Understanding
 
-- Analyze system behavior and define functional requirements  
-- Create a Requirement Traceability Matrix (RTM)  
+- Observe system behavior  
 - Write User Stories and Acceptance Criteria  
+- Create a simple Requirement Traceability Matrix (RTM)  
 
 ---
 
-### 2️⃣ Test Planning & Design
+### 2️⃣ Test Case Design
 
-- Develop Test Scenarios (high-level coverage)  
-- Design detailed Test Cases including:
-  - Test Steps  
+- Create Test Scenarios  
+- Write detailed Test Cases with:
+  - Steps  
   - Test Data  
   - Expected Results  
 
 ---
 
-### 3️⃣ Test Execution & Defect Tracking
+### 3️⃣ Test Execution
 
-- Execute test cases manually on the browser  
-- Log identified defects in structured Defect Reports  
-- Assign Severity and Priority levels  
+- Execute test cases manually  
+- Record results (Pass/Fail)  
+- Log defects when found  
 
 ---
 
-### 4️⃣ Test Reporting
+### 4️⃣ Test Summary
 
-- Produce a Test Summary Report  
-- Evaluate overall system quality  
-- Provide testing insights and coverage analysis  
+- Summarize execution results  
+- Provide simple observations about system behavior  
 
 ---
 
 ## 📂 Repository Structure
+
 ```
-├── specifications/ # User Stories, Acceptance Criteria, RTM
-├── test-cases/ # Test Case documents (Excel / PDF / Markdown)
-├── bug-reports/ # Defect reports with evidence (screenshots/logs)
-├── reports/ # Test Summary Report
+├── specifications/   # User Stories, AC, RTM
+├── test-cases/       # Test Cases (Excel / Markdown)
+├── bug-reports/      # Documented defects
+├── reports/          # Test Summary Report
 └── README.md
 ```
 
+
 ---
 
-## 🧠 Testing Scope (Phase 1)
+## 🧠 Scope (Phase 1)
 
-### Authentication Module (Login)
+### Authentication (Login)
 
 Covered:
 
-- [x] Valid Login (Standard User)  
-- [x] Invalid Credentials Handling  
-- [x] Locked-Out User Validation  
-- [x] UI/UX Validation (Field placeholders, error indicators)  
+- Valid Login  
+- Invalid Credentials  
+- Locked-Out User  
+- Basic UI validation  
 
-### Upcoming Phases
+Future scope:
 
-- Inventory Management  
-- Add-to-Cart Functionality  
-- Checkout Process  
+- Inventory  
+- Add to Cart  
+- Checkout  
 
 ---
 
-## 💻 Tech Stack & Tools
+## 💻 Tools & Environment
 
-**Test Documentation:**  
-- Markdown  
-- Google Sheets  
-
-**Environment:**  
+- Documentation: Markdown, Google Sheets  
 - OS: Windows 11  
 - Browser: Google Chrome  
 - Test URL: https://www.saucedemo.com/  
 
-**Bug Tracking:**  
-- GitHub Issues (or structured document template)
-
 ---
 
-## ⚠ Assumptions & Limitations
+## 🔄 Future Plan
 
-- The application under test is a public demo system  
-- Backend access is not available  
-- Test data is limited to provided demo accounts  
-- Performance, API, and Security testing are out of scope  
+### Phase 2 – Automation (Upcoming)
 
----
+After completing manual testing, selected test cases will be converted into automated scripts.
 
-## 📢 How to Navigate This Repository
+The purpose is to practice basic automation skills based on already validated manual scenarios.
 
-To review the latest testing artifacts:
+Automation will focus on:
 
-- Refer to `test-cases/` for detailed test case documentation  
-- Check `bug-reports/` for identified defects  
-- View `reports/` for the Test Summary Report  
+- Core functional flows  
+- Stable and repeatable scenarios  
 
-This repository represents a structured manual QA simulation designed to demonstrate practical testing capability in a real-world scenario.
-
----
-
-## 🔄 Future Roadmap
-
-### Phase 2 – Automation Testing (Upcoming)
-
-The next phase of this project will extend manual test cases into automated test scripts.
-
-The objective is to convert validated manual scenarios into reliable, maintainable, and deterministic automation suites.
-
-Planned implementation focus:
-
-- Automating high-priority and regression-critical test cases
-- Building a structured automation architecture (clear separation of test logic and utilities)
-- Enforcing test isolation and immutable test data practices
-- Implementing stable asynchronous handling to prevent false positives
-- Designing automation that remains reliable under parallel execution
-
-Automation will be implemented only after manual validation is completed to ensure accurate scenario coverage and stable test design.
+Automation will be implemented gradually as part of continued learning.
